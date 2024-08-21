@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATH EXPRESSIONS</title>
+</head>
+
+<body>
+    <script>
+
+        // 1. Write a program that take two numbers & add them in a
+        // new variable. Show the result in your browser.
+        var num1 = 3;
+        var num2 = 5;
+
+        // add two numbers
+        var sum = num1 + num2;
+
+        // display the sum
+        console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);
+
+
+    </script>
+
+    <!-- 2. Repeat task1 for subtraction, multiplication, division &
+modulus. -->
+
+
+    <script>
+        var num1 = 3;
+        var num2 = 5;
+
+        // sub two numbers
+        var sum = num1 - num2;
+
+        // display the sum
+        console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);
+
+
+    </script>
+
+
+    <script>
+        // multiplication 
+        var num1 = 3;
+        var num2 = 5;
+
+        // multiply two numbers
+        var sum = num1 * num2;
+
+        // display the sum
+        console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);
+
+    </script>
+
+
+
+    <script>
+        // division/ 
+        var num1 = 3;
+        var num2 = 5;
+
+        // divide two numbers
+        var sum = num1 / num2;
+
+        // display the sum
+        console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);
+
+
+
+    </script>
+
+    <!-- mudules -->
+    <script>
+        var num1 = 3;
+        var num2 = 5;
+
+        // mudules two numbers
+        var sum = num1 % num2;
+
+        console.log(num1, num2)
+
+
+
+
+        var num1 = 5
+        var num2 = 3;
+
+        // add two numbers
+        var sum = num1 + num2;
+
+        // display the sum
+        console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);
+    </script>
+    <!-- 3. Do the following using JS Mathematic Expressions -->
+    <!-- a. Declare a variable. -->
+    <!-- b. Show the value of variable in your browser like “Value
+    after variable declaration is: ??”.
+    c. Initialize the variable with some number.
+    d. Show the value of variable in your browser like “Initial
+    value: 5”.
+    e. Increment the variable.
+    f. Show the value of variable in your browser like “Value
+    after increment is: 6”.
+    g. Add 7 to the variable.
+    h. Show the value of variable in your browser like “Value -->
+    <!-- after addition is: 13”.
+i. Decrement the variable.
+j. Show the value of variable in your browser like “Value
+after decrement is: 12”.
+k. Show the remainder after dividing the variable’s value
+by 3.
+l. Output : “The remainder is : 0”. -->
+    <script>
+
+        // Declare a variable
+        let num;
+
+        // Show the value of variable in your browser
+        console.log("Value after variable declaration is: " + num);
+
+        // Initialize the variable with some number
+        num = 5;
+
+        // Show the value of variable in your browser
+        console.log("Initial value: " + num);
+
+        // Increment the variable
+        num++;
+
+        // Show the value of variable in your browser
+        console.log("Value after increment is: " + num);
+
+        // Add 7 to the variable
+        num += 7;
+        // Show the value of variable in your browser
+        console.log("Value after addition is: " + num);
+
+        // Decrement the variable
+        num--;
+
+        // Show the value of variable in your browser
+        console.log("Value after decrement is: " + num);
+
+        // Show the remainder after dividing the variable’s value by 3
+        let remainder = num % 3;
+
+        // Output
+        console.log("The remainder is: " + remainder);
+
+    </script>
+
+    <script>
+
+
+        // 'v // 4. Cost of one movie ticket is 600 PKR. Write a script to
+        // store
+        // ticket price in a variable & calculate the cost of buying 5
+        // tickets
+        // to a movie. Example output:
+        // Store the ticket price in a variable
+        var ticketPrice = 600;
+
+        // Calculate the cost of buying 5 tickets
+        var totalCost = ticketPrice * 5;
+
+        // Output the result
+        console.log("Cost of one movie ticket is: " + ticketPrice + " PKR");
+        console.log("Cost of buying 5 tickets is: " + totalCost + " PKR");
+
+
+    </script>
+
+    <script>
+        // 5. Write a script to display multiplication table of any
+        // number in your browser. E.g
+
+
+
+        // program to generate a multiplication table
+
+        // take input from the user
+        // <h1>Table of 4 </h1>
+        var number = parseInt(prompt('Enter an integer: '));
+
+        //creating a multiplication table
+        for (var i = 1; i <= 10; i++) {
+
+            // multiply i with number
+            var result = i * number;
+
+            // display the result
+            console.log(`${number} * ${i} = ${result}`);
+        }
+    </script>
+
+    <script>
+
+        // 6. The Temperature Converter: It’s hot out! Let’s make a
+        // converter based on the steps here.
+
+        // a. Store a Celsius temperature into a variable.
+
+        // b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+
+        // c. Now store a Fahrenheit temperature into a variable.
+
+        // d. Convert it to Celsius & output “NNoF is NNoC”.
+
+        // Conversion Formula: 
+
+
+        // Convert it to Fahrenheit
+        var fahrenheitTemp = (celsiusTemp * 9 / 5) + 32;
+
+        // Output the result
+        console.log(`${celsiusTemp}°C is ${fahrenheitTemp}°F`);
+
+        // Store a Fahrenheit temperature into a variable
+        var fahrenheitTemp2 = 86;
+
+        // Convert it to Celsius
+        var celsiusTemp2 = (fahrenheitTemp2 - 32) * 5 / 9;
+
+        // Output the result
+        console.log(`${fahrenheitTemp2}°F is ${celsiusTemp2}°C`);
+
+
+
+    </script>
+
+    <script>
+
+        // 7. Write a program to implement checkout process of a
+        // shopping cart system for an e-commerce website. Store
+        // the following in variables
+
+        // a. Price of item 1
+
+        // b. Price of item 2
+
+        // c. Ordered quantity of item 1
+
+        // d. Ordered Quantity of item 2
+
+        // e. Shipping charges
+
+        // Compute the total cost & show the receipt in your browser.
+
+        // <h1>Shopping Cart</h1>
+        var item_1_Price = 650;
+        document.write("Price of item 1 is 650 <br>");
+        var item_1_Quantity = 3;
+        document.write("Quantity of 1 item is 3 <br>");
+        var multiply = item_1_Price * item_1_Quantity;
+        // document.write("multiply");
+
+        var item_2_Price = 100;
+        document.write("Price of item 2 is 100 <br>");
+        var item_2_Quantity = 3;
+        document.write("Quantity of 2 item is 7<br>", " Shipping Charges  100;  <br> <br>");
+
+        // var multiply = item_2_Price * item_2_Quantity;
+        document.write("Total cost of your order is 2750");
+
+
+        var ShippingCharges = 100;
+        console.log("ShippingCharges 100 <br>");
+
+
+    </script>
+
+
+    <script>
+
+        // 8. Store total marks & marks obtained by a student in 2
+        // variables. Compute the percentage & show the result in
+        // your browser
+
+        var totalMarks = 980
+        document.write("Total marks 980 <br>");
+        var marksObtained = 804
+        document.write("Marks Obtained 804 <br>");
+        //    var percentage = totalMarks%marksObtained;
+        var percentage = marksObtained * percentage / totalMarks;
+        document.write("Percentage: 82.0408163265306% <br>");
+
+
+
+
+
+
+    </script>
+
+
+
+    <script>
+
+        // 9. Assume we have 10 US dollars & 25 Saudi Riyals. Write a
+        // script to convert the total currency to Pakistani Rupees.
+        // Perform all calculations in a single expression.
+        // (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee
+        // and 1 Saudi Riyal = 28 Pakistani Rupee)
+
+        var totalInPKR = (10 * 104.80) + (25 * 28);
+        console.log("Total in PKR: " + totalInPKR);
+
+
+    </script>
+
+    <script>
+
+        // 10. Write a program to initialize a variable with some
+        // number and do arithmetic in following sequence:
+        // a. Add 5
+        // b. Multiply by 10
+        // c. Divide the result by 2
+        // Perform all calculations in a single expression
+        var num1 = 10;
+        var result = (((num1 + 5) * 10) / 2);
+        console.log(result);
+
+
+    </script>
+
+    <script>
+
+        // 11. The Age Calculator: Forgot how old someone is?
+        // Calculate it!
+
+        // a. Store the current year in a variable.
+
+        // b. Store their birth year in a variable.
+
+        // c. Calculate their 2 possible ages based on the stored values -->
+
+
+        // Output them to the screen like so: “They are either NN or NN
+        // years old”.
+        // Store the current year in a variable
+        var currentYear = 2024;
+
+        // Store their birth year in a variable
+        var birthYear = 2000;
+
+        // Calculate their 2 possible ages based on the stored values
+        var age1 = currentYear - birthYear;
+        var age2 = age1 - 1;
+
+        // Output the results to the screen
+        console.log(`They are either ${age1} or ${age2} years old.`);
+
+
+
+    </script>
+
+
+    <script>
+        //     12. The Geometrizer: Calculate properties of a circle.
+
+        // a. Store a radius into a variable.
+        // b. Calculate the circumference based on the radius, and
+        // output “The circumference is NN”.
+
+        // (Hint : Circumference of a circle = 2 π r , π = 3.142)
+
+        // Calculate the area based on the radius, and output “The
+        // area is NN”. (Hint : Area of a circle = π r2, π = 3.142)
+
+
+
+
+        // Store a radius into a variable
+        var radius1 = 5;
+
+        // Calculate the circumference based on the radius
+        var circumference1 = 2 * Math.PI * radius;
+
+        // Output the result to the screen
+        console.log(`The circumference is ${circumference.toFixed(2)}`);
+
+
+        // Example 2
+        // Calculate the area
+        var area1 = Math.PI * radius * radius;
+
+        // Calculate the diameter
+        var diameter1 = 2 * radius;
+
+        // Output the results to the screen
+        console.log(`The circumference is ${circumference.toFixed(2)}`);
+        console.log(`The area is ${area.toFixed(2)}`);
+        console.log(`The diameter is ${diameter}`);
+
+
+    </script>
+
+
+    <script>
+
+        // 13. The Lifetime Supply Calculator: Ever wonder how
+        // much a “lifetime supply” of your favorite snack is?
+        // Wonder no more.
+        // a. Store your favorite snack into a variable
+        // b. Store your current age into a variable.
+        // c. Store a maximum age into a variable.
+        // d. Store an estimated amount per day (as a number).
+        // e. Calculate how many would you eat total for the rest of
+        // your life.
+        // Output the result to the screen like so: “You will need
+
+        // Store your favorite snack into a variable
+        var favoriteSnack = "chips";
+
+        // Store your current age into a variable
+        var currentAge = 25;
+
+        // Store a maximum age into a variable
+        var maxAge = 80;
+
+        // Store an estimated amount per day (as a number)
+        var amountPerDay = 2;
+
+        // Calculate how many you would eat total for the rest of your life
+        var totalAmount = (maxAge - currentAge) * 365 * amountPerDay;
+
+        // Output the result to the screen
+        console.log(`You will need ${totalAmount} ${favoriteSnack} to last you until the ripe old age of ${maxAge}.`);
+
+
+    </script>
+
+
+</body>
+
+</html>
